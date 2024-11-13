@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis of Airline Tweets</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Sentiment Analysis of Airline Tweets</h1>
+    </header>
+
+    <!-- Sentiment Distribution Section -->
+    <section id="sentiment-distribution">
+        <h2>Sentiment Distribution</h2>
+        <div id="chart-container">
+            <img src="sentiment-distribution.png" alt="Sentiment Distribution Chart">
+        </div>
+    </section>
+
+    <!-- Wordcloud Section -->
+    <section id="wordcloud-positive-tweets">
+        <h2>Wordcloud for Positive Tweets</h2>
+        <div id="wordcloud-container">
+            <img src="wordcloud.png" alt="Wordcloud for Positive Tweets">
+        </div>
+    </section>
+
+    <!-- Top 50 Most Frequent Words Section -->
+    <section id="top-50-words">
+        <h2>Top 50 Most Frequent Words</h2>
+        <div id="chart-container">
+            <img src="most frequent.PNG" alt="Top 50 Frequent Words Chart">
+        </div>
+    </section>
+
+    <!-- Sentiment Prediction Section -->
+    <section id="sentiment-prediction">
+        <h2>Predict the Sentiment of a Tweet</h2>
+        <div>
+            <label for="tweet-input">Enter a tweet:</label>
+            <textarea id="tweet-input" rows="4" placeholder="Type your tweet here..."></textarea>
+        </div>
+        <button id="predict-btn">Predict Sentiment</button>
+        <p id="prediction-result">Predicted Sentiment: <strong>Positive</strong></p>
+    </section>
+
+    <!-- Processed Tweets Section -->
+    <section id="sample-tweets">
+        <h2>Sample Processed Tweets</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Tweet</th>
+                    <th>Processed Tweet</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@VirginAmerica What @dhepburn said.</td>
+                    <td>virginamerica dhepburn said</td>
+                </tr>
+                <tr>
+                    <td>@VirginAmerica plus you've added commercials to the experience... tacky.</td>
+                    <td>virginamerica plu ad commerci tacki</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+</body>
+</html>

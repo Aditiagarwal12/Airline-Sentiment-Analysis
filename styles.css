@@ -1,0 +1,99 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Header text styling */
+h1, h2 {
+    margin: 0 0 20px;
+}
+
+/* Section styling for content */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Chart and wordcloud container styling */
+#chart-container, #wordcloud-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Wordcloud image styling */
+#wordcloud-container img {
+    width: 100%;  /* Adjust width to 100% of the parent container */
+    max-width: 800px;  /* Limit the width to 800px (or any max size) */
+    height: auto;  /* Maintain the aspect ratio */
+    border-radius: 8px;  /* Optional: Add rounded corners */
+}
+
+/* Textarea for tweet input */
+#tweet-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Table styling for processed tweets */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
